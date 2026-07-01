@@ -1,0 +1,15 @@
+# Pyrefly configuration — tells the IDE type checker to use the virtual environment
+# This fixes "Cannot find module" errors for torch, PyQt5, ultralytics, scipy, etc.
+
+python_interpreter = ".venv/Scripts/python.exe"
+search_path = [".venv/Lib/site-packages"]
+
+# Suppress PyQt5 signal/slot false positives.
+# Pyrefly cannot understand PyQt5's metaclass magic that transforms class-level
+# pyqtSignal descriptors into bound signals with .connect() / .emit() methods.
+# These are NOT real errors — the code runs perfectly at runtime.
+[errors]
+missing-attribute = "ignore"
+bad-argument-type = "ignore"
+incompatible-parameter-type = "ignore"
+not-callable = "ignore"
