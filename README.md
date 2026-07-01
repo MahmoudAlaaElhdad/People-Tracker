@@ -12,7 +12,9 @@ People Tracker Pro is a real-time computer vision and movement analytics dashboa
 * **Dwell-Time Tracking:** Tracks exactly how long an individual spends in a frame, logging entry and exit events with a granularity of seconds.
 * **AWS Cloud Integration:** Seamlessly records sessions to local storage and automatically uploads MP4 videos and timestamped CSV data reports to **Amazon S3** (`eu-north-1`) via secure `boto3` client integrations.
 * **Admin Security Protection:** Includes a persistent dashboard lock requiring authorization to adjust camera settings, detection thresholds, or simulate environment factors.
+## 📐 System Architecture
 
+![Project Architecture](assets/architecture.png)
 ---
 
 ## 🛠️ Tech Stack & Technologies
