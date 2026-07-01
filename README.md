@@ -43,7 +43,7 @@ aws configure
 Run the Application:
 
 Bash
-python main11.py
+python src/main.py
 🔒 Security Disclaimer
 This project handles AWS infrastructure connectivity natively through standard secure credential files or environmental variables. All private production access keys have been omitted from the repository codebase to comply with Cloud DevSecOps best practices.
 ## 🤝 Contributing
@@ -55,18 +55,19 @@ Contributions are welcome! If you'd like to improve the tracking pipeline, optim
 
 2. **Clone Your Fork:**
    ```bash
-   git clone [https://github.com/MahmoudAlaaElhdad/People-Tracker.git](https://github.com/MahmoudAlaaElhdad/People-Tracker.git)
-Create a New Feature Branch:
+  git clone https://github.com/YOUR_USERNAME/People-Tracker.git
+cd People-Tracker
 
+3.Create a New Feature Branch:
 Bash
 git checkout -b feature/your-feature-name
-Commit Your Changes:
 
+4.Commit Your Changes:
 Bash
 git commit -am 'Add some amazing feature'
-Push to the Branch:
 
+5.Push to the Branch:
 Bash
 git push origin feature/your-feature-name
-Submit a Pull Request:
+6.Submit a Pull Request:
 Go to the original repository and click New Pull Request to merge your updates.
